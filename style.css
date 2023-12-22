@@ -66,9 +66,9 @@ body{
 .content span{
     display: block;
 }
-@media (max-width: 600px){
-    .skill {
-        width: 60%;
-        margin: 0 0 2rem 0;
+@media screen and (max-width:500px) {
+        /*this caters for mobile users*/
+    aside, main, p{
+        width: 100%;
     }
 }
