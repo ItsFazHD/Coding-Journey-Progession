@@ -68,7 +68,7 @@ body{
 }
 @media screen and (max-width:500px) {
         /*this caters for mobile users*/
-    aside, main, p{
+    Skill{
         width: 100%;
     }
 }
