@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@400;800&display=swap");
+
+body{
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+.skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.skill{
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.3), -5px -5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    position: relative;
+    display: grid;
+    place-items: center;
+    margin-bottom: 2rem;
+}
+.skill::before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: #131313;
+    box-shadow: inset 5px 5px 20px rgba(255, 255, 255, 0.3), inset -5px -5px 20px rgba(0, 0, 0, 0.3);
+}
+.skill:not(:last-child){
+    margin-right: 3rem;
+}
+.skill:nth-child(1){
+    background-image: conic-gradient(#f16524 100%, transparent 0);
+    color: #FC486B;
+}
+.skill:nth-child(2){
+    background-image: conic-gradient(#38B6FF 100%, transparent 0);
+    color: #38B6FF;
+}
+.skill:nth-child(3){
+    background-image: conic-gradient(#03CCAC 6.25%, transparent 0);
+    color: #03CCAC;
+}
+.skill:nth-child(4){
+    background-image: conic-gradient(#8669FB 0%, transparent 0);
+    color: #8669FB;
+}
+.skill:nth-child(5){
+    background-image: conic-gradient(#38f8ff 29.63%, transparent 0);
+    color: #38f8ff;
+}
+.content{
+    font-size: 20px;
+    z-index: 1;
+    text-align: center;
+    font-family: Poppins;
+}
+.content span{
+    display: block;
+}
+@media (max-width: 600px){
+    .skill {
+        width: 60%;
+        margin: 0 0 2rem 0;
+    }
+}
