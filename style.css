@@ -66,10 +66,3 @@ body{
 .content span{
     display: block;
 }
-@media (max-width:600px) {
-    
-   .skill{
-        width: 60%;
-        margin: 0 0 2rem 0;
-    }
-}
