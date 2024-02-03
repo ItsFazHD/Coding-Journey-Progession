@@ -80,3 +80,9 @@ body {
 .content span {
   display: block;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
