@@ -52,22 +52,26 @@ body {
   color: #f0db4f;
 }
 .skill:nth-child(4) {
-  background-image: conic-gradient(#61dbfb 25%, transparent 0);
+  background-image: conic-gradient(#61dbfb 30%, transparent 0);
   color: #61dbfb;
 }
 .skill:nth-child(5) {
+  background-image: conic-gradient(#e5e5e5 0%, transparent 0);
+  color: #e5e5e5;
+}
+.skill:nth-child(6) {
   background-image: conic-gradient(#68a063 0%, transparent 0);
   color: #68a063;
 }
-.skill:nth-child(6) {
+.skill:nth-child(7) {
   background-image: conic-gradient(#f89820 29.62%, transparent 0);
   color: #f89820;
 }
-.skill:nth-child(7) {
+.skill:nth-child(8) {
   background-image: conic-gradient(#589636 0%, transparent 0);
   color: #589636;
 }
-.skill:nth-child(8) {
+.skill:nth-child(9) {
   background-image: conic-gradient(#00758f 0%, transparent 0);
   color: #00758f;
 }
