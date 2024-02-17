@@ -52,7 +52,7 @@ body {
   color: #f0db4f;
 }
 .skill:nth-child(4) {
-  background-image: conic-gradient(#61dbfb 40%, transparent 0);
+  background-image: conic-gradient(#61dbfb 45%, transparent 0);
   color: #61dbfb;
 }
 .skill:nth-child(5) {
